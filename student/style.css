@@ -1,0 +1,77 @@
+html {
+    width: 85%;
+    margin: auto;
+    background-color: rgb(168, 0, 0);
+}
+.page {
+    height: 100vh;
+    background-color: rgb(105, 105, 105);
+    color: white;
+}
+.upp {
+    padding-left: 20px;
+}
+#intitle {
+    text-align: center;
+    font-family: rock salt;
+}
+table {
+    margin: auto;
+    width: 95%;
+    border: 1px solid black;
+    margin-top: 4%;
+}
+tr {
+    border-bottom: 1px solid black;
+    margin: 20px;
+}
+th {
+    text-align: center;
+    padding: 7px;
+}
+td {
+    padding: 7px;
+}
+#subtd {
+    display: flex;
+    justify-content: center;
+}
+#sub {
+    width: 60%;
+}
+.ops {
+    display: flex;
+    gap: 5px;
+    justify-content: space-around;
+}
+button {
+    width: 5vw;
+}
+.ininput {
+    text-align: center;
+    color: black;
+    width: 100%;
+}
+input[type="file"] {
+    margin: auto;
+    color: white;
+}
+#wrap {
+    display: flex;
+    gap: 1vw;
+    margin: 3vw 0px 0px 2vw;
+}
+#back {
+    position: absolute;
+    top: -4%;
+    left: 1%;
+    font-size: 4vw;
+    color: white;
+    text-decoration: none;
+}
+#back:hover {
+    color: rgb(134, 134, 134);
+}
+.footerd {
+    color: whitesmoke;
+}
